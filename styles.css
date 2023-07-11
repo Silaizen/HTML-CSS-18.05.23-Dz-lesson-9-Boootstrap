@@ -1,0 +1,91 @@
+/* Общие стили */
+
+.container {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Стили для блока новостей */
+
+.news-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.news-card {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.news-title {
+  margin-top: 0;
+}
+
+.news-date {
+  color: #6c757d;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+/* Стили для блока наград */
+
+.awards-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.award-card {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.award-icon img {
+  max-width: 100%;
+  height: auto;
+}
+
+.award-description {
+  margin-top: 0;
+}
+
+.award-date,
+.award-count {
+  color: #6c757d;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+/* Стили для кнопки "More" */
+
+.load-more-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.load-more-btn:hover {
+  background-color: #0056b3;
+}
+
+.load-more-btn:focus {
+  outline: none;
+}

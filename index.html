@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <title>Домашняя страница</title>
+
+    <style>
+      #maket {
+        width: 100%;
+        border-spacing: 5px; /* Задает промежутки в пикселях */
+        /* или */
+        border-collapse: separate;
+        border-spacing: 5px; /* Задает промежутки в пикселях */
+      }
+      #maket TD {
+        vertical-align: top;
+      }
+      TD#leftcol {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+          <img src="home.png" alt="Логотип" width="50" height="50" />
+          Home
+        </a>
+        <a class="navbar-brand" href="homework.html"> Homework </a>
+        <a class="navbar-brand" href="setting.html"> Setting </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li>
+              <img src="av_64.png" alt="Логотип" width="50" height="50" />
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <table id="maket">
+      <tr>
+        <td id="leftcol">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h2>News</h2>
+                <div class="news-container">
+                  <div class="news-card">
+                    <div class="news-image">
+                      <img src="holiday.png" alt="Изображение новости" />
+                    </div>
+                    <div class="news-content">
+                      <h3 class="news-title">Weekends</h3>
+                      <p class="news-text">Loremi psum</p>
+                      <p class="news-date">Date: 2023-05-21</p>
+                    </div>
+                  </div>
+                  <div class="news-card">
+                    <div class="news-image">
+                      <img
+                        src="photo_2023-05-22_05-34-47.jpg"
+                        alt="Изображение новости"
+                      />
+                    </div>
+                    <div class="news-content">
+                      <h3 class="news-title">Programming Consultation</h3>
+                      <p class="news-text">This sunday, lalalalala</p>
+                      <p class="news-date">Date: 2023-05-20</p>
+                    </div>
+                  </div>
+                  <div class="news-card">
+                    <div class="news-image">
+                      <img src="bank.png" alt="Изображение новости" />
+                    </div>
+                    <div class="news-content">
+                      <h3 class="news-title">Meeting with SUS Bank</h3>
+                      <p class="news-text">On Monday, lalalla</p>
+                      <p class="news-date">Date: 2023-05-19</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="load-more-btn">More</button>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Rewards</h2>
+              </div>
+            </div>
+            <div class="awards-container">
+              <div class="award-card">
+                <div class="award-icon">
+                  <img src="badge.png" alt="Иконка награды" />
+                </div>
+                <div class="award-content">
+                  <h3 class="award-description">Class Attendet</h3>
+                  <p class="award-date">Date: 2023-05-15</p>
+                  <p class="award-count">Number of rewards: 3</p>
+                </div>
+              </div>
+              <div class="award-card">
+                <div class="award-icon">
+                  <img src="badge.png" alt="Иконка награды" />
+                </div>
+                <div class="award-content">
+                  <h3 class="award-description">Class Attendet</h3>
+                  <p class="award-date">Date: 2023-05-12</p>
+                  <p class="award-count">Number of rewards: 5</p>
+                </div>
+              </div>
+              <div class="award-card">
+                <div class="award-icon">
+                  <img src="badge.png" alt="Иконка награды" />
+                </div>
+                <div class="award-content">
+                  <h3 class="award-description">Class Attendet</h3>
+                  <p class="award-date">Date: 2023-05-12</p>
+                  <p class="award-count">Number of rewards: 5</p>
+                </div>
+              </div>
+              <div class="award-card">
+                <div class="award-icon">
+                  <img src="badge.png" alt="Иконка награды" />
+                </div>
+                <div class="award-content">
+                  <h3 class="award-description">Class Attendet</h3>
+                  <p class="award-date">Date: 2023-05-12</p>
+                  <p class="award-count">Number of rewards: 5</p>
+                </div>
+              </div>
+              <div class="award-card">
+                <div class="award-icon">
+                  <img src="badge.png" alt="Иконка награды" />
+                </div>
+                <div class="award-content">
+                  <h3 class="award-description">Class Attendet</h3>
+                  <p class="award-date">Date: 2023-05-12</p>
+                  <p class="award-count">Number of rewards: 5</p>
+                </div>
+              </div>
+              <div class="award-card">
+                <div class="award-icon">
+                  <img src="badge.png" alt="Иконка награды" />
+                </div>
+                <div class="award-content">
+                  <h3 class="award-description">Class Attendet</h3>
+                  <p class="award-date">Date: 2023-05-10</p>
+                  <p class="award-count">Number of rewards: 2</p>
+                </div>
+              </div>
+            </div>
+            <button class="load-more-btn">More</button>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
